@@ -1,0 +1,71 @@
+body, h1, h2 , p, ul, li{
+   margin: 0;
+   padding: 0; 
+} 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: papayawhip;
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+   max-width: 200px;
+   height: auto;
+
+}
+
+.header-content{
+    text-align: left;
+}
+nav{
+    background-color: black;
+}
+main{
+    padding: 2rem;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem ;
+}
+.menu li{
+    margin: 1rem;
+    position: relative;
+}
+.menu a{
+    color: bisque;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover{
+    color:azure;
+}
+.submenu-content{
+    display: none;
+    position: absolute;
+    top:100%;
+    left:0%;
+    background-color: black;
+    z-index: 1;
+}
+.submenu:hover .submenu-content{
+    display: block;
+}
+.department{
+    margin-bottom: 2rem;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: black;
+    color: aliceblue;
+}
